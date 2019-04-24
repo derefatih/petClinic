@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.javaegitimleri.petclinic.web.PetClinicRestControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 7.333 s <<< FAILURE! - in com.javaegitimleri.petclinic.web.PetClinicRestControllerTest
+testDeleteOwner(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 1.886 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8080/rest/owner/1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testDeleteOwner(PetClinicRestControllerTest.java:35)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testDeleteOwner(PetClinicRestControllerTest.java:35)
+
+testCreateOwner(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 1.18 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/rest/owner": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testCreateOwner(PetClinicRestControllerTest.java:53)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testCreateOwner(PetClinicRestControllerTest.java:53)
+
+testOwnerUpdate(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 1.128 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owner/4": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testOwnerUpdate(PetClinicRestControllerTest.java:63)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testOwnerUpdate(PetClinicRestControllerTest.java:63)
+
+testGetOwnersByLastName(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 1.004 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owner": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnersByLastName(PetClinicRestControllerTest.java:88)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnersByLastName(PetClinicRestControllerTest.java:88)
+
+testGetOwnerById(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 1.023 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owner/1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnerById(PetClinicRestControllerTest.java:79)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwnerById(PetClinicRestControllerTest.java:79)
+
+testGetOwners(com.javaegitimleri.petclinic.web.PetClinicRestControllerTest)  Time elapsed: 1.005 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/rest/owners": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwners(PetClinicRestControllerTest.java:104)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.javaegitimleri.petclinic.web.PetClinicRestControllerTest.testGetOwners(PetClinicRestControllerTest.java:104)
+
